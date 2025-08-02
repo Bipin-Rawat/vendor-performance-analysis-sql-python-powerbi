@@ -7,18 +7,18 @@ This project focuses on uncovering actionable insights from vendor, sales, and i
 
 ## 📚 Table of Contents
 
-- [🧩 Business Problem](#-business-problem)
-- [🧹 Data Cleaning and Preparation](#-data-cleaning-and-preparation)
-- [📊 Exploratory Data Analysis](#-exploratory-data-analysis)
-- [📈 Dashboard](#-dashboard)
-- [📁 Project Structure](#-project-structure)
-- [▶️ How to Run This Project](#️-how-to-run-this-project)
-- [✅ Final Recommendations](#-final-recommendations)
-- [👤 Author and Contact](#-author-and-contact)
+- [ Business Problem](#-business-problem)
+- [ Data Cleaning and Preparation](#-data-cleaning-and-preparation)
+- [ Exploratory Data Analysis](#-exploratory-data-analysis)
+- [ Dashboard](#-dashboard)
+- [ Project Structure](#-project-structure)
+- [ How to Run This Project](#️-how-to-run-this-project)
+- [ Final Recommendations](#-final-recommendations)
+- [ Author and Contact](#-author-and-contact)
 
 ---
 
-## 🧩 Business Problem
+##  Business Problem
 
 Retail and wholesale companies often deal with complex vendor relationships, unpredictable sales trends, and inefficient inventory practices. Poor visibility into these areas can lead to:
 
@@ -50,7 +50,7 @@ Retail and wholesale companies often deal with complex vendor relationships, unp
 
 ---
 
-## 📊 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 - Identified vendors with low turnover but high cost inventory
 - Assessed brand performance based on sales vs profit margin
@@ -61,7 +61,7 @@ Retail and wholesale companies often deal with complex vendor relationships, unp
 
 ---
 
-## 📈 Dashboard
+##  Dashboard
 
 Built using Power BI to visualize:
 
@@ -76,20 +76,20 @@ Built using Power BI to visualize:
 ## 📁 Project Structure
 
 ```text
-📦 Vendor Performance Analysis/
-├── 📜 Exploratory Data Analysis.ipynb        # Main analysis notebook
-├── 📜 Exploratory Data Analysis.py          # Script version of the notebook
-├── 📜 get_vendor_summary.py                 # Data aggregation logic
-├── 📜 injection_db.py                       # DB setup with vendor invoice data
-├── 📊 vendor_performance.pbix               # Power BI dashboard file
-├── 📄 Vendors Performance Report.pdf        # Final PDF report with insights
-├── 📄 README.md                             # Project documentation
-├── 📄 .gitignore                            # Ignore .db, logs, temp files
+ Vendor Performance Analysis/
+├──  Exploratory Data Analysis.ipynb        # Main analysis notebook
+├──  Exploratory Data Analysis.py          # Script version of the notebook
+├──  get_vendor_summary.py                 # Data aggregation logic
+├──  injection_db.py                       # DB setup with vendor invoice data
+├──  vendor_performance.pbix               # Power BI dashboard file
+├──  Vendors Performance Report.pdf        # Final PDF report with insights
+├──  README.md                             # Project documentation
+├──  .gitignore                            # Ignore .db, logs, temp files
 ```
 
 ---
 
-## ▶️ How to Run This Project
+##  How to Run This Project
 
 1. Clone this repo.
 2. (Optional) Run `injection_db.py` to recreate the SQLite database.
@@ -100,11 +100,11 @@ Built using Power BI to visualize:
 
 ## ✅ Final Recommendations
 
-- 🏷️ Re-price or promote high-margin, low-sales brands.
-- 🧃 Diversify vendor base to reduce supply chain risk.
-- 📦 Encourage bulk buying for cost savings.
-- 📉 Clear slow-moving stock through offers or reduced orders.
-- 🚀 Improve distribution and marketing for low-performing vendors.
+-  Re-price or promote high-margin, low-sales brands.
+-  Diversify vendor base to reduce supply chain risk.
+-  Encourage bulk buying for cost savings.
+-  Clear slow-moving stock through offers or reduced orders.
+-  Improve distribution and marketing for low-performing vendors.
 
 ---
 
